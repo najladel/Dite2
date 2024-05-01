@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		886964E42BE300030067338A /* Dite2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886964E32BE300030067338A /* Dite2App.swift */; };
+		886964E62BE300030067338A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886964E52BE300030067338A /* ContentView.swift */; };
+		886964E82BE300050067338A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 886964E72BE300050067338A /* Assets.xcassets */; };
+		886964EB2BE300050067338A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 886964EA2BE300050067338A /* Preview Assets.xcassets */; };
+		886964F52BE300050067338A /* Dite2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886964F42BE300050067338A /* Dite2Tests.swift */; };
+		886964FF2BE300050067338A /* Dite2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886964FE2BE300050067338A /* Dite2UITests.swift */; };
+		886965012BE300050067338A /* Dite2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886965002BE300050067338A /* Dite2UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		886964F12BE300050067338A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 886964D82BE300030067338A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 886964DF2BE300030067338A;
+			remoteInfo = Dite2;
+		};
+		886964FB2BE300050067338A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 886964D82BE300030067338A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 886964DF2BE300030067338A;
+			remoteInfo = Dite2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		886964E02BE300030067338A /* Dite2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dite2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		886964E32BE300030067338A /* Dite2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dite2App.swift; sourceTree = "<group>"; };
+		886964E52BE300030067338A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		886964E72BE300050067338A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		886964EA2BE300050067338A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		886964F02BE300050067338A /* Dite2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Dite2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		886964F42BE300050067338A /* Dite2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dite2Tests.swift; sourceTree = "<group>"; };
+		886964FA2BE300050067338A /* Dite2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Dite2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		886964FE2BE300050067338A /* Dite2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dite2UITests.swift; sourceTree = "<group>"; };
+		886965002BE300050067338A /* Dite2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dite2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		886964DD2BE300030067338A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		886964ED2BE300050067338A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		886964F72BE300050067338A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		886964D72BE300030067338A = {
+			isa = PBXGroup;
+			children = (
+				886964E22BE300030067338A /* Dite2 */,
+				886964F32BE300050067338A /* Dite2Tests */,
+				886964FD2BE300050067338A /* Dite2UITests */,
+				886964E12BE300030067338A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		886964E12BE300030067338A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				886964E02BE300030067338A /* Dite2.app */,
+				886964F02BE300050067338A /* Dite2Tests.xctest */,
+				886964FA2BE300050067338A /* Dite2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		886964E22BE300030067338A /* Dite2 */ = {
+			isa = PBXGroup;
+			children = (
+				886964E32BE300030067338A /* Dite2App.swift */,
+				886964E52BE300030067338A /* ContentView.swift */,
+				886964E72BE300050067338A /* Assets.xcassets */,
+				886964E92BE300050067338A /* Preview Content */,
+			);
+			path = Dite2;
+			sourceTree = "<group>";
+		};
+		886964E92BE300050067338A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				886964EA2BE300050067338A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		886964F32BE300050067338A /* Dite2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				886964F42BE300050067338A /* Dite2Tests.swift */,
+			);
+			path = Dite2Tests;
+			sourceTree = "<group>";
+		};
+		886964FD2BE300050067338A /* Dite2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				886964FE2BE300050067338A /* Dite2UITests.swift */,
+				886965002BE300050067338A /* Dite2UITestsLaunchTests.swift */,
+			);
+			path = Dite2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		886964DF2BE300030067338A /* Dite2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 886965042BE300050067338A /* Build configuration list for PBXNativeTarget "Dite2" */;
+			buildPhases = (
+				886964DC2BE300030067338A /* Sources */,
+				886964DD2BE300030067338A /* Frameworks */,
+				886964DE2BE300030067338A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dite2;
+			productName = Dite2;
+			productReference = 886964E02BE300030067338A /* Dite2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		886964EF2BE300050067338A /* Dite2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 886965072BE300050067338A /* Build configuration list for PBXNativeTarget "Dite2Tests" */;
+			buildPhases = (
+				886964EC2BE300050067338A /* Sources */,
+				886964ED2BE300050067338A /* Frameworks */,
+				886964EE2BE300050067338A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				886964F22BE300050067338A /* PBXTargetDependency */,
+			);
+			name = Dite2Tests;
+			productName = Dite2Tests;
+			productReference = 886964F02BE300050067338A /* Dite2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		886964F92BE300050067338A /* Dite2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8869650A2BE300050067338A /* Build configuration list for PBXNativeTarget "Dite2UITests" */;
+			buildPhases = (
+				886964F62BE300050067338A /* Sources */,
+				886964F72BE300050067338A /* Frameworks */,
+				886964F82BE300050067338A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				886964FC2BE300050067338A /* PBXTargetDependency */,
+			);
+			name = Dite2UITests;
+			productName = Dite2UITests;
+			productReference = 886964FA2BE300050067338A /* Dite2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		886964D82BE300030067338A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					886964DF2BE300030067338A = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					886964EF2BE300050067338A = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 886964DF2BE300030067338A;
+					};
+					886964F92BE300050067338A = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 886964DF2BE300030067338A;
+					};
+				};
+			};
+			buildConfigurationList = 886964DB2BE300030067338A /* Build configuration list for PBXProject "Dite2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 886964D72BE300030067338A;
+			productRefGroup = 886964E12BE300030067338A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				886964DF2BE300030067338A /* Dite2 */,
+				886964EF2BE300050067338A /* Dite2Tests */,
+				886964F92BE300050067338A /* Dite2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		886964DE2BE300030067338A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				886964EB2BE300050067338A /* Preview Assets.xcassets in Resources */,
+				886964E82BE300050067338A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		886964EE2BE300050067338A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		886964F82BE300050067338A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		886964DC2BE300030067338A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				886964E62BE300030067338A /* ContentView.swift in Sources */,
+				886964E42BE300030067338A /* Dite2App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		886964EC2BE300050067338A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				886964F52BE300050067338A /* Dite2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		886964F62BE300050067338A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				886964FF2BE300050067338A /* Dite2UITests.swift in Sources */,
+				886965012BE300050067338A /* Dite2UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		886964F22BE300050067338A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 886964DF2BE300030067338A /* Dite2 */;
+			targetProxy = 886964F12BE300050067338A /* PBXContainerItemProxy */;
+		};
+		886964FC2BE300050067338A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 886964DF2BE300030067338A /* Dite2 */;
+			targetProxy = 886964FB2BE300050067338A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		886965022BE300050067338A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		886965032BE300050067338A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		886965052BE300050067338A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dite2/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iOS.Dite2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		886965062BE300050067338A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dite2/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iOS.Dite2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		886965082BE300050067338A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iOS.Dite2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dite2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Dite2";
+			};
+			name = Debug;
+		};
+		886965092BE300050067338A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iOS.Dite2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dite2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Dite2";
+			};
+			name = Release;
+		};
+		8869650B2BE300050067338A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iOS.Dite2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dite2;
+			};
+			name = Debug;
+		};
+		8869650C2BE300050067338A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iOS.Dite2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dite2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		886964DB2BE300030067338A /* Build configuration list for PBXProject "Dite2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				886965022BE300050067338A /* Debug */,
+				886965032BE300050067338A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		886965042BE300050067338A /* Build configuration list for PBXNativeTarget "Dite2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				886965052BE300050067338A /* Debug */,
+				886965062BE300050067338A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		886965072BE300050067338A /* Build configuration list for PBXNativeTarget "Dite2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				886965082BE300050067338A /* Debug */,
+				886965092BE300050067338A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8869650A2BE300050067338A /* Build configuration list for PBXNativeTarget "Dite2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8869650B2BE300050067338A /* Debug */,
+				8869650C2BE300050067338A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 886964D82BE300030067338A /* Project object */;
+}
